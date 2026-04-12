@@ -240,12 +240,26 @@ export default function App() {
             </div>
             <div className="flex flex-col items-center gap-2">
               <div className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-gold" />
-                <a href="tel:+918077341187" className="hover:text-gold transition-colors">+91 80773 41187</a>
+                <MessageCircle className="w-4 h-4 text-gold" />
+                <a 
+                  href="https://wa.me/918077341187" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-gold transition-colors"
+                >
+                  +91 80773 41187
+                </a>
               </div>
               <div className="flex items-center gap-2">
-                <Phone className="w-4 h-4 text-gold" />
-                <a href="tel:+917250019256" className="hover:text-gold transition-colors">+91 72500 19256</a>
+                <MessageCircle className="w-4 h-4 text-gold" />
+                <a 
+                  href="https://wa.me/917250019256" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-gold transition-colors"
+                >
+                  +91 72500 19256
+                </a>
               </div>
             </div>
           </motion.div>
@@ -435,10 +449,24 @@ export default function App() {
                 <span>Sheel chauraha near kipps super market Bareilly UP</span>
               </div>
               <div className="flex gap-4">
-                <Phone className="w-5 h-5 text-gold shrink-0" />
+                <MessageCircle className="w-5 h-5 text-gold shrink-0" />
                 <div className="flex flex-col gap-1">
-                  <a href="tel:+918077341187" className="hover:text-gold transition-colors">+91 80773 41187</a>
-                  <a href="tel:+917250019256" className="hover:text-gold transition-colors">+91 72500 19256</a>
+                  <a 
+                    href="https://wa.me/918077341187" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="hover:text-gold transition-colors"
+                  >
+                    +91 80773 41187
+                  </a>
+                  <a 
+                    href="https://wa.me/917250019256" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="hover:text-gold transition-colors"
+                  >
+                    +91 72500 19256
+                  </a>
                 </div>
               </div>
               <div className="flex gap-4">
