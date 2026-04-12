@@ -446,7 +446,17 @@ export default function App() {
             <div className="space-y-6 text-cream/60 text-sm">
               <div className="flex gap-4">
                 <MapPin className="w-5 h-5 text-gold shrink-0" />
-                <span>Sheel chauraha near kipps super market Bareilly UP</span>
+                <div className="flex flex-col gap-2">
+                  <span>Sheel chauraha near kipps super market Bareilly UP</span>
+                  <a 
+                    href="https://maps.app.goo.gl/u4UkW8mhYAzTkTzd6" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-gold text-sm hover:underline flex items-center gap-1"
+                  >
+                    View on Google Maps
+                  </a>
+                </div>
               </div>
               <div className="flex gap-4">
                 <MessageCircle className="w-5 h-5 text-gold shrink-0" />
