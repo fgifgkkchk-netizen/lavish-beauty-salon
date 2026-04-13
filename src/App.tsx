@@ -27,7 +27,7 @@ import {
 import { categories, Category, Service } from './services/services';
 import ChatBot from './components/ChatBot';
 
-const OWNER_WHATSAPP = "918077341187";
+const OWNER_WHATSAPP = "917250019256";
 
 export default function App() {
   const [selectedCategory, setSelectedCategory] = useState<Category>(categories[0]);
@@ -242,23 +242,23 @@ export default function App() {
               <div className="flex items-center gap-2">
                 <MessageCircle className="w-4 h-4 text-gold" />
                 <a 
-                  href="https://wa.me/918077341187" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="hover:text-gold transition-colors"
-                >
-                  +91 80773 41187
-                </a>
-              </div>
-              <div className="flex items-center gap-2">
-                <MessageCircle className="w-4 h-4 text-gold" />
-                <a 
                   href="https://wa.me/917250019256" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="hover:text-gold transition-colors"
                 >
                   +91 72500 19256
+                </a>
+              </div>
+              <div className="flex items-center gap-2">
+                <MessageCircle className="w-4 h-4 text-gold" />
+                <a 
+                  href="https://wa.me/918077341187" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="hover:text-gold transition-colors"
+                >
+                  +91 80773 41187
                 </a>
               </div>
             </div>
@@ -462,20 +462,20 @@ export default function App() {
                 <MessageCircle className="w-5 h-5 text-gold shrink-0" />
                 <div className="flex flex-col gap-1">
                   <a 
-                    href="https://wa.me/918077341187" 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
-                    className="hover:text-gold transition-colors"
-                  >
-                    +91 80773 41187
-                  </a>
-                  <a 
                     href="https://wa.me/917250019256" 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="hover:text-gold transition-colors"
                   >
                     +91 72500 19256
+                  </a>
+                  <a 
+                    href="https://wa.me/918077341187" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="hover:text-gold transition-colors"
+                  >
+                    +91 80773 41187
                   </a>
                 </div>
               </div>
